@@ -1,4 +1,4 @@
-<h1 align>Mate-Academy-Tasks 🖐</h1>
+<h1 align> DMDEV Spring Start 🖐</h1>
 <h2>🟠Tasks and their answers from Mate Academy</h2>
 <h3>🟠 My personal learning experience.</h3>
 <h3>🟠 I don't recommend copying my solutions - you won't learn anything that way.</h2>
