@@ -1,11 +1,11 @@
-<h1 align>Mate-Academy-Tasks 🖐</h1>
-<h2>🟠Tasks and their answers from Mate Academy</h2>
-<h3>🟠 My personal learning experience.</h3>
-<h3>🟠 I don't recommend copying my solutions - you won't learn anything that way.</h2>
-<h3><a href="https://coursehunter.net/source/udemy/java"><strong>Java Udemy Education »</strong></a></h3>
+<h1 align> DMDEV Spring Start 🖐</h1>
+<h4>🟠 Spring is the most widely used framework for writing Java applications.</h4>
+<h4>🟠 The first version was released back in 2003, after which Spring underwent a lot of changes and became really monstrous.</h4>
+<h4>🟠 This led to its splitting into many separate modules, which will be discussed in the course:</h4>
+<h4>🟠 This led to its splitting into many separate modules, which will be discussed in the course.</h4>
+<h3><a href="https://coursehunter.net/course/springnew?lesson=1"><strong>DMDEV Spring Start »</strong></a></h3>
 <img src="README images/0.png" alt="Logo">
 <img src="README images/1.png" alt="Logo">
 <img src="README images/2.png" alt="Logo">
 <img src="README images/3.png" alt="Logo">
-<img src="README images/4.png" alt="Logo">
 
