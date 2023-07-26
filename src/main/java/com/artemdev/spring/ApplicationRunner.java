@@ -6,14 +6,15 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ApplicationRunner {
     public static void main(String[] args) {
-        var context = new ClassPathXmlApplicationContext("application.xml");
+        try (var context = new ClassPathXmlApplicationContext("application.xml")) {
 
-        // clazz -> String -> Map<String,Object> - запрос на создание bean-объекта;
-        var connectionPool = context.getBean("pool-1", ConnectionPool.class);
-        System.out.println(connectionPool);
+            // clazz -> String -> Map<String,Object> - запрос на создание bean-объекта;
+            var connectionPool = context.getBean("pool-1", ConnectionPool.class);
+            System.out.println(connectionPool);
 
-        var companyRepository = context.getBean("companyRepository", CompanyRepository.class);
-        System.out.println(companyRepository);
+            var companyRepository = context.getBean("companyRepository", CompanyRepository.class);
+            System.out.println(companyRepository);
+        }
     }
 }
 
