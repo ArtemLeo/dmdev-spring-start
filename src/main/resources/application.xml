@@ -24,8 +24,17 @@
                 <entry key="driver" value-ref="driver"/>
             </map>
         </constructor-arg>
+        <!-- from setter -->
+        <property name="properties">
+            <map>
+                <entry key="url" value="postgresUrl"/>
+                <entry key="password" value="123"/>
+                <entry key="driver" value-ref="driver"/>
+            </map>
+        </property>
     </bean>
 
+    <!-- from method -->
     <bean id="companyRepository" class="com.artemdev.spring.database.repository.CompanyRepository" factory-method="of">
         <constructor-arg index="0" name="connectionPool" ref="pool-1"/>
     </bean>
